@@ -31,7 +31,7 @@ body{
 }
 svg{
     width: 1.5rem;
-    fill: white ;
+    
 }
 
 .icon-text{
@@ -52,4 +52,77 @@ svg{
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
+
+.header{
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.form-input{
+    width: 500px;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 10px;
+    margin-right: 250px;
+}
+.avatarnavbar-1, .avatarnavbar-2{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.avatarnavbar-2{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin: 5px 20px;
+    margin-left: -20px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 60px;
+}
+
+.btn{
+    background-color: #0ea5e9 ;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #0ea5e9;
+}
+.content{
+    background-color: #d4d4d4;
+}
+
